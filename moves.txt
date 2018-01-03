@@ -1,0 +1,6 @@
+ember fire
+bubble water
+water_gun water
+razor_leaf grass
+vine_whip grass
+flamethrower fire

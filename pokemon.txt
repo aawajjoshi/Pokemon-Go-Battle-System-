@@ -1,0 +1,20 @@
+Bulbasaur
+grass
+30
+tackle 2
+vine_whip 4
+razor_leaf 6
+-
+Squirtle
+water
+35
+tackle 2
+bubble 3
+water_gun 7
+-
+Charmander
+fire
+40
+scratch 2
+ember 5
+-
