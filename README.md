@@ -1,8 +1,8 @@
-﻿Given the very sudden resurgence of Pokemon Go this summer, it seems logical to address one of the more common complaints about the game: the battle system (well, and quite a lot more, but let's start somewhere, shall we?).  This is a very basic battle system that could be used in an RPG like Pokemon: you have characters, these characters have different moves with different powers, and the affinities of the characters will affect how much damage they take.  The Pokemon names and abilities can be generalized to work for *any* RPG that follows this kind of damage system. Ordered and unordered linear data structures were used to build this battle system.
+﻿Given the very sudden resurgence of Pokemon Go this summer, it seems logical to address one of the more common complaints about the game: the battle system (well, and quite a lot more, but let's start somewhere, shall we?).  This is a very basic battle system that could be used in an RPG like Pokemon: you have characters, these characters have different moves with different powers, and the affinities of the characters will affect how much damage they take.  The Pokemon names and abilities can be generalized to work for any RPG that follows this kind of damage system. Ordered and unordered linear data structures were used to build this battle system.
 
 **Methods implemented:**
 
-World.loadMons(String fname)
+ `World.loadMons(String fname)`
 This method loads all of the characters in the specified file into the list of available characters. File format is:
 ```
 name1
@@ -41,11 +41,13 @@ Some functionality in TrainerBattle.Battle(Trainer player, Trainer opponent)
 
 
 
-**Sample Output**
+Sample Output
+=============
+
 : Note: The player is Ash
 
-Winning:
-'''
+**Winning:**
+```
 run:
 Ash caught Charmander
 Charmander's information will be stored in the pokedex
@@ -109,8 +111,9 @@ It's super effective!
 Bulbasaur fainted
 Ash wins!
 BUILD SUCCESSFUL (total time: 23 seconds)
-Losing:
-
+```
+**Losing:**
+```
 run:
 Ash caught Squirtle
 Squirtle's information will be stored in the pokedex
@@ -209,4 +212,5 @@ It's super effective!
 Squirtle fainted
 Gary wins!
 BUILD SUCCESSFUL (total time: 23 seconds)
-'''
+```
+
