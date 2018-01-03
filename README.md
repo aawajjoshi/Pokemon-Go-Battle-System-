@@ -2,9 +2,9 @@
 
 **Methods implemented:**
 
-'World.loadMons(String fname)'
+World.loadMons(String fname)
 This method loads all of the characters in the specified file into the list of available characters. File format is:
-'''
+```
 name1
 type1
 max_hp
@@ -18,7 +18,7 @@ move_name power
 move_name power
 move_name power
 -
-'''
+```
 
 'MoveModifier.loadMoves(String fname)'
 This method reads the move types from the specified file and stores them in the moveTypes HashMap.
