@@ -4,9 +4,8 @@ Given the very sudden resurgence of Pokemon Go this summer, it seems logical to 
 
 ## Methods implemented:
 
-* World.loadMons(String fname)
 ----------------------------
-
+* World.loadMons(String fname)
 
 This method loads all of the characters in the specified file into the list of available characters. File format is:
 ```
@@ -25,40 +24,36 @@ move_name power
 -
 ```
 
-* MoveModifier.loadMoves(String fname)
 ----------------------------
-
+* MoveModifier.loadMoves(String fname)
 
 This method reads the move types from the specified file and stores them in the moveTypes HashMap.
 
-* MoveModifier.loadAdvantages(String fname)
 ----------------------------
-
+* MoveModifier.loadAdvantages(String fname)
 
 This method is similar to the loadMoves method, but has an additional step: there are two HashMaps: strengths and weaknesses. I will make the assumption that if typeA is strong against typeB, then typeB is weak against typeA.
 
-* MoveModifier.getModifier(String move, String againstType)
 ----------------------------
-
+* MoveModifier.getModifier(String move, String againstType)
 
 This method determineS the bonus multiplier for damage based on the type. First, it determines the type of the move by looking it up in the moveTypes HashMap. It then determines whether or not the type is strong against againstType by seeing if it is the value for the key in the strenghts HashMap. This method returns 1.0 if the move is not strong or weak against the opposing type, 1.5 if it is strong against it, and 0.5 if it is weak against it.
 
-* Pokemon.addMove(String move, int val)
 ----------------------------
-
+* Pokemon.addMove(String move, int val)
 
 This method puts the move into the moves HashMap; the key is the String and the value is the int.
 
-* Trainer.catchPokemon(Pokemon p)
 ----------------------------
-
+* Trainer.catchPokemon(Pokemon p)
 
 This method adds a copy of the specified pokemon to the available Pokemon (stored in billsPC). Additionally, it attempts to store the pokemon in the pokedex (called dex) if it is not already there. Additionally, the method prints to the screen saying the trainer caught the Pokemon, and if the pokemon has not been caught before, prints that the Pokemon’s data will be added to the Pokedex. The method returns whether the pokemon has been caught before or not. 
 
+----------------------------
 * Some functionality in Trainer(String name)
 
 * Some functionality in TrainerBattle.Battle(Trainer player, Trainer opponent)
-
+----------------------------
 
 
 ## Sample Output
