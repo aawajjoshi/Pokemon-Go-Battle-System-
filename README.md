@@ -1,6 +1,8 @@
-﻿Given the very sudden resurgence of Pokemon Go this summer, it seems logical to address one of the more common complaints about the game: the battle system (well, and quite a lot more, but let's start somewhere, shall we?).  This is a very basic battle system that could be used in an RPG like Pokemon: you have characters, these characters have different moves with different powers, and the affinities of the characters will affect how much damage they take.  The Pokemon names and abilities can be generalized to work for any RPG that follows this kind of damage system. Ordered and unordered linear data structures were used to build this battle system.
+# Pokemon-Go-Battle-System
 
-**Methods implemented:**
+Given the very sudden resurgence of Pokemon Go this summer, it seems logical to address one of the more common complaints about the game: the battle system (well, and quite a lot more, but let's start somewhere, shall we?).  This is a very basic battle system that could be used in an RPG like Pokemon: you have characters, these characters have different moves with different powers, and the affinities of the characters will affect how much damage they take.  The Pokemon names and abilities can be generalized to work for any RPG that follows this kind of damage system. Ordered and unordered linear data structures were used to build this battle system.
+
+## Methods implemented:
 
  `World.loadMons(String fname)`
 ----------------------------
@@ -59,10 +61,9 @@ This method adds a copy of the specified pokemon to the available Pokemon (store
 
 
 
-Sample Output
-=============
+## Sample Output
 
-: Note: The player is Ash
+'Note: The player is Ash'
 
 **Winning:**
 ```
@@ -231,4 +232,8 @@ Squirtle fainted
 Gary wins!
 BUILD SUCCESSFUL (total time: 23 seconds)
 ```
+
+## Authors
+
+**Aawaj Raj Joshi** 
 
